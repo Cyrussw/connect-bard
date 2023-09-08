@@ -7,9 +7,9 @@ cookie_dict = {
     "__Secure-1PSIDCC": "",
 }
 
-sairus = BardCookies(cookie_dict=cookie_dict)
+bard = BardCookies(cookie_dict=cookie_dict)
 
 
-def chatSairus(mesaj):
-    cevap = sairus.get_answer(mesaj)["content"]
+def chatBard(mesaj):
+    cevap = bard.get_answer(mesaj)["content"]
     return cevap
