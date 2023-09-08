@@ -5,5 +5,5 @@ os.system("cls")
 
 while True:
     message = input("Mesaj: ")
-    content = chatSairus(message)
-    print(f"Sairus: {content}")
+    content = chatBard(message)
+    print(f"Bard: {content}")
